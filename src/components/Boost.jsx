@@ -85,8 +85,8 @@ export default function Boost() {
         }
 
         const newCoinLavel = currentLevel + 1;
-        const newTotalClicks = userData.total_clicks * 2;
-        const newCurrentClicks = userData.current_clicks * 2;
+        const newTotalClicks = userData.total_clicks + 2000;
+        const newCurrentClicks = userData.current_clicks + 2000;
         const newTotalCoins = userData.total_coins - cost;
 
         try {
