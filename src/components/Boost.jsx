@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { supabase } from './supabaseClient';
 
-export default function Boost() {
+export default function Boost({user}) {
     const [userData, setUserData] = useState(null);
-    const username = "prince";
-
+    const username = user;
     // Fetch user data on component mount
     useEffect(() => {
         const fetchUserData = async () => {
