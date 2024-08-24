@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import { supabase } from './supabaseClient';
 import CountUp from 'react-countup';
 
-export default function ClickPage() {
+export default function ClickPage({user}) {
     const [animate, setAnimate] = useState(false);
     const [totalClicks, setTotalClicks] = useState(0);
     const [currentClicks, setCurrentClicks] = useState(0);
     const [totalCoins, setTotalCoins] = useState(0);
-    const username = "prince";
+    const username = user;
     const [clickPerPoint, setClickPerPoint] = useState(1);
     const [animateCoins, setAnimateCoins] = useState(false);
     const [animateClicks, setAnimateClicks] = useState(false);
