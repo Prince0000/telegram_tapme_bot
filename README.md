@@ -11,12 +11,10 @@ TapMe is a fun and interactive web-based game where users can tap on an image to
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
-A live demo of the application can be found [here](#).
+A live demo of the application can be found [here](https://t.me/TapMe_test_bot/TapMe_new).
 
 ## Features
 
