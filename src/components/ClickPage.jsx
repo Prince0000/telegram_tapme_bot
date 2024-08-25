@@ -140,15 +140,15 @@ export default function ClickPage({user}) {
             }}
         >
             <div className="row text-center pt-2">
-                <div className="col-12 my-3">
+                <div className="col-12 my-2">
                     <h3 className="text-warning">TapMe - @{username}</h3>
                 </div>
 
-                <div className="col-12 my-2" style={{ cursor: 'pointer' }}>
+                <div className="col-12 mt-2 mb-1" style={{ cursor: 'pointer' }}>
                     <div className="card bg-dark">
                         <div className="card-body">
                             <h5 className="card-title text-white">
-                                <img src="assets/coin.png" style={{ width: '30px', height: '30px' }} alt="" /> &nbsp;
+                                <img src="assets/coin.png" style={{ width: '20px', height: '20px' }} alt="" /> &nbsp;
                                 <CountUp
                                     start={totalCoins - clickPerPoint}
                                     end={totalCoins}
